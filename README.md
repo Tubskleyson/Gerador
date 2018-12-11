@@ -1,0 +1,2 @@
+# SeparadorDePdf
+separar pdfs man
