@@ -18,10 +18,18 @@ def get_run(modelo):
 
 wdFormatPDF = 17
 
-file_path = os.path.abspath(sys.argv[1])
-list_path = os.path.abspath(sys.argv[2])
+print('> Modelo do Certificado')
+file_path = os.path.abspath(input('\n< '))
 
-nomes = sorted([i.split(';')[0].strip('\n')[1:-1] for i in open(list_path).readlines()[1:]])
+print('> Lista de valores')
+list_path = os.path.abspath(input('\n< '))
+
+print('> Pasta de sáida')
+out_path = os.path.abspath(input('\n< '))
+
+if '\\' != out_path[-1]: out_path+='\\'
+
+nomes = sorted([i.split(';')[0].strip('\n') for i in open(list_path).readlines()[1:]])
 
 modelo = Document(file_path)
 
@@ -38,13 +46,13 @@ for i in nomes:
     j+=1
     run.text = i
 
-    modelo.save(i+'.docx')
+    modelo.save(out_path+i+'.docx')
 
-    doc = word.Documents.Open(os.path.abspath(i + '.docx'))
-    doc.SaveAs(os.path.abspath('output\\'+ i + '.pdf'), FileFormat=wdFormatPDF)
+    doc = word.Documents.Open(os.path.abspath(out_path+i + '.docx'))
+    doc.SaveAs(out_path+ i + '.pdf', FileFormat=wdFormatPDF)
     doc.Close()
 
-    os.remove(i+'.docx')
+    os.remove(out_path+i+'.docx')
 
 
 word.Quit()
