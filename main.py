@@ -1,104 +1,120 @@
 from PyPDF2 import PdfFileReader,PdfFileWriter
 import os
 
-print("\n> Bem vindo ao separador de pdf.\n")
+class App:
 
-path = 0
+    def __init__(self):
 
-while not path:
+        print("\n> Bem vindo ao separador de pdf.\n")
 
-    print("\n> Em que pasta está o pdf que você deseja dividir?")
-    path = input("\n< ")
+        self.path = ''
+        self.filename = ''
+        self.pdf = None
+        self.lista = ''
 
-    try:
-        os.chdir(path)
-    except:
+    def run(self):
 
-        print("\n> Caminho inválido\n")
-        path = 0
+        while not self.path: self.path = self.get_path()
 
-if '/'!=path[-1]: path += '/'
+        os.chdir(self.path)
 
-print("\n> Ok, qual o nome do arquivo?")
+        while not self.filename: self.filename = self.get_filename()
 
-filename = input("\n< ")
+        self.pdf = PdfFileReader(open(self.filename, 'rb'))
 
-if '.pdf' not in filename: filename+='.pdf'
+        self.paginas = self.pdf.numPages
 
-while not os.path.exists(filename):
+        print("\n> Você deseja basear o nome dos arquivos gerados numa lista?")
+        r = input("< ")
 
-    print("\n> Não consigo achar seu arquivo. Cheque o nome e tente novamente")
-    filename = input("\n< ")
+        while r not in ['s', 'n', 'sim', 'não', 'nao']:
+            print("\n> Desculpse, não entendi sua resposta, você pode dizer sim ou não")
+            r = input("< ")
 
-    if '.pdf' not in filename: filename += '.pdf'
+        if r=='sim' or r=='s': self.lista = self.get_lista()
 
+        print("> Ok, digite enter para começar a separação")
+        input()
 
-pdf = PdfFileReader(open(filename,'rb'))
-paginas = pdf.numPages
+        self.gerar()
 
+        print("\n> Tudo certo. Você vai achar seus %d pdfs na pasta %s" % (self.paginas, self.out_path))
 
-print("\n> Você deseja basear o nome dos arquivos gerados numa lista?")
-r = input("< ")
-
-while r not in ['s','n','sim','não','nao']:
-
-    print("\n> Desculpse, não entendi sua resposta, você pode dizer sim ou não")
-    r = input("< ")
+        input()
 
 
-if r=='sim':
+    def get_path(self):
+
+        print("\n> Em que pasta está o pdf que você deseja dividir?")
+        path = input("\n< ")
+
+        if os.path.exists(path):
+            if '\\' != path[-1]: path += '\\'
+            return path
+
+        else:
+
+            print("\n> Caminho inválido\n")
+            return 0
 
 
-    print("\n> E qual a pasta dessa lista?")
-    lpath = input("\n< ")
+    def get_filename(self):
 
-    while not os.path.exists(lpath):
+        print("\n> Qual o nome do arquivo a ser dividido?")
+        filename = input("\n< ")
 
-        print("\n> Não achei essa pasta, tente novamente")
+        if '.pdf' not in filename: filename += '.pdf'
+
+        if os.path.exists(filename): return filename
+
+        else:
+            print("\n> Não encontrei o arquivo %s" %filename)
+            return 0
+
+
+    def get_lista(self):
+
+        print("\n> E qual a pasta dessa lista?")
         lpath = input("\n< ")
 
-    if '/'!=lpath[-1]: lpath += '/'
+        while not os.path.exists(lpath):
+            print("\n> Não achei essa pasta, tente novamente")
+            lpath = input("\n< ")
 
+        if '\\' != lpath[-1]: lpath += '\\'
 
-    print("\n> Ok, qual o nome do arquivo da lista? Note que eu só aceito arquivos .csv")
+        print("\n> Ok, qual o nome do arquivo da lista? Note que eu só aceito arquivos .csv")
 
-    listname = input("\n< ")
-
-    if '.csv' not in listname: listname += '.csv'
-
-    while not os.path.exists(listname):
-
-        print("\n> Não consigo achar sua lista. Cheque o nome e tente novamente")
         listname = input("\n< ")
 
         if '.csv' not in listname: listname += '.csv'
 
-    myl = open(lpath+listname)
+        while not os.path.exists(listname):
 
-    lista = sorted([i.strip('\n').split(';')[0] for i in myl.readlines()[1:]])
+            print("\n> Não consigo achar sua lista. Cheque o nome e tente novamente")
+            listname = input("\n< ")
 
-else: lista = 0
+            if '.csv' not in listname: listname += '.csv'
 
+        myl = open(lpath + listname)
 
-print("> Ok, estou começando a separar as paginas")
+        return sorted([i.strip('\n').split(';')[0] for i in myl.readlines()[1:]])
 
-np = path+'output/'
+    def gerar(self):
 
-if not os.path.exists(np): os.mkdir(np)
+        self.out_path = self.path + 'output\\'
 
+        if not os.path.exists(self.out_path): os.mkdir(self.out_path)
 
+        for i in range(self.paginas):
 
-for i in range(paginas):
+            output = PdfFileWriter()
+            output.addPage(self.pdf.getPage(i))
 
-    output = PdfFileWriter()
-    output.addPage(pdf.getPage(i))
+            if self.lista:
+                outFile = open(self.out_path + self.lista[i] + '.pdf', "wb")
+            else:
+                outFile = open(self.out_path + self.filename.split('.')[0] + str(i) + '.pdf', "wb")
 
-    if lista:  outFile = open(np+lista[i]+'.pdf',"wb")
-    else: outFile = open(np+filename.split('.')[0]+str(i)+'.pdf',"wb")
+            output.write(outFile)
 
-
-    output.write(outFile)
-
-print("\n> Tudo certo. Você vai achar seus %d pdfs na pasta %s" %(paginas,np))
-
-input()
