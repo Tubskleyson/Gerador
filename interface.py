@@ -241,16 +241,26 @@ class App:
 
         self.j += 1
 
+
+
         for k in range(len(i)):
             self.runs[k].text = i[k]
+
+
+        while os.path.exists(self.pasta + i[0].replace(' ','_') + '.pdf'):
+
+            i[0] += '_'
+
 
         self.doc.save(self.pasta + i[0] + '.docx')
 
         doc = self.word.Documents.Open(os.path.abspath(self.pasta + i[0] + '.docx'))
-        doc.SaveAs(self.pasta + i[0] + '.pdf', FileFormat=17)
+        doc.SaveAs(os.path.abspath(self.pasta + i[0].replace(' ','_') + '.pdf'), FileFormat=17)
         doc.Close()
 
         os.remove(self.pasta + i[0] + '.docx')
+
+    
 
         if self.j<len(self.nomes): self.window.after(100,self.geraUm)
         else:
