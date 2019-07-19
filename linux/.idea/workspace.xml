@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09c7ebf0-893a-427f-8366-b746480a05b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tubs.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/ins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/install.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../installer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imaging.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imagingcms.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imagingft.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imagingmath.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imagingmorph.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_imagingtk.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/_webp.cp35-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/PIL/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/_win32sysloader.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/command_template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-10.0-amd64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-10.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-14.0-amd64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-14.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-6.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-7.1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-8.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-9.0-amd64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/command/wininst-9.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/distutils/tests/Setup.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/encodings/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pydoc_data/_pydoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pythoncom35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pywintypes35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/tkinter/test/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32api.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/readme.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/pythoncom35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/pywintypes35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/win32com/shell/shell.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/cert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/cert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/certi.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/ins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/install.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/assets/pasta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/gerar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/installer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/separador.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/auto.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/clock.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/history.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/package.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/parray.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/safe.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/tclIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/tm.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl/word.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tk86t.dll" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/topdf.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="80" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/installer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-405">
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/interface.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="287" column="117" selection-start-line="287" selection-start-column="19" selection-end-line="287" selection-end-column="117" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/topdf.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="80" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gerarcertificados.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#20#55#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/topdf.py" />
+        <option value="$PROJECT_DIR$/gerar.py" />
+        <option value="$PROJECT_DIR$/interface.py" />
+        <option value="$PROJECT_DIR$/gerarcertificados.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7" fullScreen="true">
+    <option name="y" value="25" />
+    <option name="width" value="1346" />
+    <option name="height" value="703" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="linux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gerar">
+    <configuration name="gerar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="linux" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gerar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="linux" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="topdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="linux" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gerar" />
+        <item itemvalue="Python.interface" />
+        <item itemvalue="Python.topdf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09c7ebf0-893a-427f-8366-b746480a05b2" name="Default Changelist" comment="" />
+      <created>1563547779092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563547779092</updated>
+      <workItem from="1563547782211" duration="8578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8578000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-37" width="1366" height="805" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32998565" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.32998565" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linux$topdf.coverage" NAME="topdf Coverage Results" MODIFIED="1563561273816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/linux$interface.coverage" NAME="interface Coverage Results" MODIFIED="1563565045225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/linux$gerar.coverage" NAME="gerar Coverage Results" MODIFIED="1563567646229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="287" column="117" selection-start-line="287" selection-start-column="19" selection-end-line="287" selection-end-column="117" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerarcertificados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
