@@ -1,4 +1,4 @@
-#Gerador de Certificados
+# Gerador de Certificados
 
 Esta é uma aplicação em python que visa facilitar a geração de certificados. 
 
